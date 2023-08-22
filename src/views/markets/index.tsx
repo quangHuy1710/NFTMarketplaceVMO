@@ -22,7 +22,7 @@ const MarketView = () => {
                         display="flex"
                         flexDirection="column"
                     >
-                        <div style={{ display: "flex", justifyContent: "flex-start", alignItems: "center", padding: "10px", background: "rgba(255, 255, 255, 0.8)", position: "absolute", top: 0, left: 0 }}>
+                        <div style={{ display: "flex", justifyContent: "flex-start", alignItems: "center", padding: "10px", background: "rgba(255, 255, 255, 0)", position: "absolute", top: 0, left: 0 }}>
                             <Text>ID: {nft.tokenId}</Text>
                         </div>
                         <Box flexGrow={1}>
