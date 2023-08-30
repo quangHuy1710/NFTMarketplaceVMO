@@ -23,6 +23,7 @@
     "dotenv": "^16.3.1",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
+    "ether": "^0.0.9",
     "ethers": "^5.4.0",
     "framer-motion": "^10.15.0",
     "hardhat": "^2.9.5",
