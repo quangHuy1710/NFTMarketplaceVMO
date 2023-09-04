@@ -15,6 +15,7 @@ import {
 import axios from "axios";
 import { useEffect } from "react";
 
+
 const MarketView = () => {
     const [listings, getListing] = useState([]);
 
@@ -31,7 +32,7 @@ const MarketView = () => {
         const queryFilter = "metadata=[name]=NFT_Collection";
         const url = "https://api.pinata.cloud/data/pinList?" + queryFilter;
         const fetchFile = await axios.get(url, getHeader);
-        const response = fetchFile.data;
+        const response = fetchFile.data.rows;
         const output = response.map((value) => {
             let getCid = value.ipfs_pin_hash;
             return getCid;
